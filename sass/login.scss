@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+
+$iv3: #fbd46d;
+$iv2: #41444b;
+$iv1: #fbd46d;
+$iv4: #30475e;
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+.navbar-nav {
+	margin-left: auto;
+	margin-right: 150px;
+}
+.navbar {
+	background-color: $iv2;
+}
+.brand {
+	margin-left: 100px;
+	font-weight: 800;
+	font-size: 22px;
+	color: $iv3;
+	text-decoration: none;
+	padding: 0px 10px;
+}
+.brand:hover {
+	color: rgba($color: $iv1, $alpha: 0.5);
+}
+
+.btn {
+	color: $iv2;
+	font-weight: 700;
+	background-color: $iv1;
+	border-color: $iv3;
+	padding: 5px 12px;
+}
+
+.btn:hover {
+	background-color: $iv2;
+	color: $iv3;
+	border-color: $iv3;
+}
+
+.dropdown-menu {
+	background-color: $iv3;
+	border-color: $iv3;
+	li {
+		a {
+			color: $iv2;
+			font-weight: 600;
+		}
+	}
+}
+
+.dropdown-item:hover {
+	background-color: $iv2;
+	color: $iv3;
+	border-radius: 5px;
+}
+
+.dropdown {
+	margin-left: 30px;
+}
+
+html body {
+	background-color: rgba($color: $iv2, $alpha: 0.9);
+}
+
+.jumbotron {
+	margin: 10% 10%;
+	padding: 30px 20px;
+	background-color: $iv2;
+	color: $iv3;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.display-1 {
+	font-size: 85px;
+	font-weight: 800;
+}
+
+.lead {
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.muf-logo-1 {
+	position: absolute;
+	left: 2%;
+	top: 60%;
+	rotate: -10deg;
+	z-index: -2;
+	box-shadow: 20px;
+}
+.muf-logo-2 {
+	position: absolute;
+	right: 2%;
+	top: 10%;
+	rotate: 20deg;
+	z-index: 2;
+	box-shadow: 20px;
+}
+
+.nav-item {
+	margin: 0px 10px;
+}
+
+.ar {
+	text-decoration: none;
+	color: $iv1;
+}
+.ar:hover {
+	color: rgba($color: $iv1, $alpha: 0.5);
+}
+
+.log {
+	margin-top: 5px;
+}
+
+.card {
+	background-color: $iv2;
+	color: $iv3;
+	position: absolute;
+	top: 25%;
+	left: 25%;
+}
+.head {
+	color: $iv3;
+	font-weight: 700;
+}
+
+.form-control:focus {
+	border-color: $iv3;
+	box-shadow: 0 0 0 0.1rem $iv3;
+	caret-color: $iv2;
+}
